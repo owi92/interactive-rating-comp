@@ -1,0 +1,23 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: var(--clr-bg-mid);
+  border-radius: 28px;
+  width: clamp(15rem, 88%, 25.5rem);
+  /* max-width: min(88%, 25.5rem);
+  min-width: 15rem; */
+  margin: 0 auto;
+  padding: 1.5em;
+  padding-bottom: 2em;
+}
+
+@media (min-width: 600px) {
+  .card {
+    padding: 2em;
+    height: 26rem;
+  }
+}

@@ -1,0 +1,30 @@
+.img-star {
+  width: 0.9rem;
+}
+h1 {
+  color: var(--clr-text-bright);
+  font: var(--ff-bold);
+}
+p {
+  color: var(--clr-text-mid);
+  font: var(--ff-reg);
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+  transform: scale(1, 1.005);
+  margin-bottom: 1.6rem;
+}
+
+@media (min-width: 600px) {
+  .img-star {
+    width: 1.1rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+    margin-top: 1em;
+  }
+  p {
+    font-size: 0.96rem;
+    letter-spacing: normal;
+    margin-bottom: 1.5rem;
+  }
+}
