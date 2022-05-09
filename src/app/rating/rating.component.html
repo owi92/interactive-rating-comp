@@ -1,10 +1,11 @@
 <form #myForm="ngForm" (submit)="onSubmit(myForm)">
-  <fieldset class="rating">
+  <fieldset role="radiogroup" class="rating">
     <div *ngFor="let rating of ratings">
       <div class="hover">
         <input
           id="{{ rating }}"
           type="radio"
+          role="radio"
           name="rating"
           value="{{ rating }}"
           ngModel
